@@ -1,0 +1,120 @@
+table {
+  margin: 10px auto;
+  height:auto;
+  width: auto;
+  color: white;
+}
+
+
+#list, .show {display: none; }
+.hide:focus + .show {display: inline; }
+.hide:focus { display: none; }
+.hide:focus ~ #list { display:block; }
+
+/*label*/ /* may want to uncomment this */
+/*{*/
+/*	text-decoration:underline;*/
+/*	 color: #5100ff;*/
+/*}*/
+
+
+img
+{
+  max-width: 200px;
+  max-height: 200px;
+  border:1px solid #021a40;
+  opacity: 0.8;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hidden{
+  display:none;
+}
+
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+
+.collapse{
+  cursor: pointer;
+  display: block;
+}
+.collapse + input{
+  display: none; /* hide the checkboxes */
+}
+.collapse + input + div{
+  display:none;
+}
+.collapse + input:checked + div{
+  display:block;
+}
+
+.container {
+  background-color: #24434F;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.songDisplay {
+  width: 900px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.titleSection {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #911C16;
+}
+
+.submitSection {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #911C16;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body {
+  background-image: url("../images/hexBackground.jpg");
+}
+
+.songInfo {
+  text-decoration:none;
+}
+
+.tableContainer{
+  width: 350px;
+  height: 700px;
+  overflow: auto;
+  float: left;
+}
+
+.userInput {
+  margin-left: 375px;
+  height:700px;
+}
+
+.separation {
+  padding: 20px;
+  text-align:center;
+}
+
+tr:nth-child(even) {
+    background-color: #0B2A38;
+}
+
+tr:nth-child(odd) {
+    background-color: #167368;
+}
+
+h3 {
+  text-align:center;
+}
